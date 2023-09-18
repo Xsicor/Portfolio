@@ -11,9 +11,10 @@ onMounted(() => {
   window.addEventListener("scroll", () => {
     const maxHeight = document.body.scrollHeight - window.innerHeight;
     const scrollYPercent = (window.scrollY * 100) / maxHeight;
-    if (scrollYPercent < 21) {
+    console.log(scrollYPercent);
+    if (scrollYPercent < 31) {
       selected.value = "about";
-    } else if (scrollYPercent > 47) {
+    } else if (scrollYPercent > 71) {
       selected.value = "projects";
     } else {
       selected.value = "experience";
