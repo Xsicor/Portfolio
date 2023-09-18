@@ -17,9 +17,10 @@
         </a>
         <p class="leading-none text-gray-500">2022 - Present</p>
         <p>
-          Morbi eu tortor a quam auctor tincidunt ut sed lorem. Pellentesque
-          scelerisque nibh vitae est iaculis, sit amet facilisis nibh feugiat.
-          Curabitur eu velit eu neque dictum accumsan vitae eu felis.
+          I've been responsible for developing and maintaining robust production
+          code across a range of projects, including image upload and
+          processing. Additionally, I've collaborated closely with fellow
+          developers to create a B2B Travel Agent Hotel booking website.
         </p>
         <ul class="flex flex-wrap">
           <li><div class="badge badge-accent badge-lg my-2 mr-2">Vue</div></li>
