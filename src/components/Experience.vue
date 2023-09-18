@@ -1,8 +1,22 @@
+<script setup>
+import WorkIcon from "./icons/WorkIcon.vue";
+</script>
+
 <template>
   <div
     id="experience"
     class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
   >
+    <div
+      class="flex sticky top-0 z-20 -mx-6 mb-4 w-screen bg-base-200/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0"
+    >
+      <WorkIcon class="mr-2 fill-slate-300" />
+      <h2
+        class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only"
+      >
+        Experience
+      </h2>
+    </div>
     <div class="group card">
       <div class="card-body p-0">
         <a

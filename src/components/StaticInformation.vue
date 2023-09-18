@@ -21,19 +21,28 @@ import LightBulbIcon from "./icons/LightBulbIcon.vue";
       <div class="mt-16 hidden lg:block">
         <ul class="menu rounded-box w-56 bg-base-200">
           <li>
-            <a href="#about" class="fill-slate-300 text-base">
+            <a
+              href="#about"
+              class="fill-slate-300 text-xs font-bold uppercase tracking-widest"
+            >
               <InformationIcon />
               About
             </a>
           </li>
           <li>
-            <a href="#experience" class="fill-slate-300 text-base">
+            <a
+              href="#experience"
+              class="fill-slate-300 text-xs font-bold uppercase tracking-widest"
+            >
               <WorkIcon />
               Experience
             </a>
           </li>
           <li>
-            <a href="#projects" class="fill-slate-300 text-base">
+            <a
+              href="#projects"
+              class="fill-slate-300 text-xs font-bold uppercase tracking-widest"
+            >
               <LightBulbIcon />
               Projects
             </a>
