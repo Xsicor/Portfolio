@@ -5,6 +5,13 @@ import EmailIcon from "./icons/EmailIcon.vue";
 import InformationIcon from "./icons/InformationIcon.vue";
 import WorkIcon from "./icons/WorkIcon.vue";
 import LightBulbIcon from "./icons/LightBulbIcon.vue";
+
+const props = defineProps({
+  selected: {
+    type: String,
+    rqeuired: true,
+  },
+});
 </script>
 
 <template>
@@ -24,6 +31,7 @@ import LightBulbIcon from "./icons/LightBulbIcon.vue";
             <a
               href="#about"
               class="fill-slate-300 text-xs font-bold uppercase tracking-widest"
+              :class="{ active: selected === 'about' }"
             >
               <InformationIcon />
               About
@@ -33,6 +41,7 @@ import LightBulbIcon from "./icons/LightBulbIcon.vue";
             <a
               href="#experience"
               class="fill-slate-300 text-xs font-bold uppercase tracking-widest"
+              :class="{ active: selected === 'experience' }"
             >
               <WorkIcon />
               Experience
@@ -42,6 +51,7 @@ import LightBulbIcon from "./icons/LightBulbIcon.vue";
             <a
               href="#projects"
               class="fill-slate-300 text-xs font-bold uppercase tracking-widest"
+              :class="{ active: selected === 'projects' }"
             >
               <LightBulbIcon />
               Projects
